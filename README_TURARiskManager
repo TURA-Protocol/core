@@ -1,0 +1,19 @@
+# TURARiskManager
+
+TURARiskManager is responsible for managing risk parameters and user risk profiles in the TURA protocol.
+
+## Features
+
+- Set and update global risk parameters
+- Manage individual user risk scores
+- Calculate risk-adjusted position sizes
+
+## Key Functions
+
+- `updateRiskParameters`: Update global risk parameters (owner only)
+- `updateUserRiskScore`: Update a user's risk score (owner only)
+- `calculateRiskAdjustedPosition`: Calculate the risk-adjusted position size for a user
+
+## Usage
+
+The TURARiskManager contract is used by other contracts in the TURA ecosystem to ensure that all operations adhere to the defined risk parameters. It helps in maintaining the overall stability of the protocol by adjusting user actions based on their risk profiles.
