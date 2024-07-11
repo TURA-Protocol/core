@@ -1,0 +1,18 @@
+# TURAOracle
+
+TURAOracle provides up-to-date price information for assets used in the TURA protocol.
+
+## Features
+
+- Integration with Chainlink price feeds
+- Ability to update price feed sources
+- Retrieval of latest prices for supported assets
+
+## Key Functions
+
+- `updatePriceFeed`: Update the price feed for a specific token (owner only)
+- `getLatestPrice`: Get the latest price for a specific token
+
+## Usage
+
+The TURAOracle contract is used by other contracts in the TURA ecosystem to obtain reliable price data for risk calculations and arbitrage opportunity assessment.
