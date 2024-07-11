@@ -1,0 +1,26 @@
+# TURAGovernance
+
+TURAGovernance is the core governance contract for the TURA protocol. It allows TURA token holders to participate in the decision-making process of the protocol.
+
+## Features
+
+- Proposal creation and voting
+- Time-locked execution of approved proposals
+- Quorum and voting period settings
+- Integration with TURA token for voting power
+
+## Usage
+
+To interact with the TURAGovernance contract, TURA token holders can:
+
+1. Create proposals
+2. Vote on active proposals
+3. Execute approved proposals after the timelock period
+
+## Functions
+
+- `propose`: Create a new governance proposal
+- `castVote`: Vote on an active proposal
+- `execute`: Execute an approved proposal after the timelock period
+
+For full documentation, please refer to the [OpenZeppelin Governor documentation](https://docs.openzeppelin.com/contracts/4.x/api/governance).
