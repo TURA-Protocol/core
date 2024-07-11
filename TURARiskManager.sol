@@ -38,5 +38,4 @@ contract TURARiskManager is Ownable, ReentrancyGuard {
         return positionSize * riskAdjustment / 1e18;
     }
 
-    // Add more risk management functions as needed
 }
