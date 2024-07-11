@@ -1,0 +1,19 @@
+# TURAArbitrage
+
+TURAArbitrage is the core contract responsible for executing arbitrage opportunities in the TURA protocol.
+
+## Features
+
+- Risk-adjusted arbitrage execution
+- Integration with TURARiskManager for risk assessment
+- Support for multi-hop arbitrage paths
+
+## Key Functions
+
+- `executeArbitrage`: Execute an arbitrage opportunity
+
+## Usage
+
+Users interact with the TURAArbitrage contract to execute arbitrage opportunities. The contract ensures that all arbitrage actions are performed within the risk parameters defined by the TURARiskManager.
+
+Note: This is a simplified implementation. In a real-world scenario, additional security measures and more sophisticated arbitrage logic would be required.
